@@ -1,0 +1,236 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+
+    --height-header: 193px;
+    --heigth-header-logo: 70px;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+/* Button */
+.btn {
+    width: 120px;
+    height: 40px;
+    background-color: var(--black-color);
+    border: none;
+    color: var(--white-color);
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 0;
+    padding: 0 16px;
+}
+
+.btn:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.btn.btn--color-white {
+    background-color: var(--white-color);
+    color: var(--text-color);
+}
+
+.btn--size-l {
+    padding: 0 22px;
+}
+
+/* Content */
+.content__generation {
+    position: absolute;
+    top: 10%;
+    right: 90px;
+    width: 450px;
+    min-height: 286px;
+    background-color: rgba(0, 0, 0, 0.36);
+    padding: 16px 32px;
+}
+
+.content__generation-header {
+    font-size: 2.6rem;
+    color: var(--white-color);
+}
+
+.content__generation-text {
+    color: var(--white-color);
+    font-size: 1.6rem;
+    font-weight: 300;
+    margin-bottom: 50px;
+    padding-top: 20px;
+    line-height: 2rem;
+}
+
+/* Section */
+.content-section {
+    padding-top: 80px;
+    text-align: center;
+}
+
+
+.section__heading {
+    padding: 20px;
+    width: 280px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    font-size: 3.2rem;
+    position: relative;
+}
+
+.section__heading::after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-bottom: 1px solid #c4c4c4;
+    width: 90px;
+    top: 100%;
+    left: 100px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.36);
+}
+
+.section__sub-heading {
+    color: #616161;
+    width: 600px;
+    font-size: 1.5rem;
+    display: flex;
+    margin: 20px auto;
+}
+
+/* Products Section */
+.products-section {
+    background-color: var(--black-color);
+    padding: 20px;
+    width: 360px;
+    border: 1px solid var(--white-color);
+}
+
+.products-section__heading {
+    color: var(--white-color);
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.products-section__text {
+    color: #B4B4B4;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    height: 1.8rem;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+}
+
+.products-section--size-l {
+    width: 450px;
+}
+
+.products-section--size-s {
+    width: 280px;
+}
+
+.content__generation.vision {
+    position: absolute;
+    text-align: left;
+    top: calc(100% - 364px);
+    left: 0;
+}
+
+.content__generation.showrooms {
+    position: absolute;
+    text-align: left;
+    top: calc(100% - 400px);
+    left: 520px;
+    width: 414px;
+}
+
+.content__generation--color-white {
+    background-color: #f7f7f7;
+}
+
+.content__generation-header--black,
+.content__generation-text--black {
+    color: var(--black-color);
+}
+
+/* Nav Overlay */
+.nav__overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+    display: none;
+    animation: fadeIn linear 0.3s;
+}
+
+.nav__mobile {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 520px;
+    height: 1500px;
+    max-width: 100%;
+    background-color: var(--white-color);
+    z-index: 2;
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: transform ease 0.3s, opacity ease 0.3s;
+}
+
+.nav__list {
+    margin-top: 24px;
+    list-style: none;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: var(--text-color);
+    display: block;
+    padding: 16px 0;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.nav__close {
+    font-size: 3.6rem;
+    color: #666;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+.nav__mobile-input:checked ~ .nav__overlay {
+    display: block;
+} 
+
+.nav__mobile-input:checked ~ .nav__mobile {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

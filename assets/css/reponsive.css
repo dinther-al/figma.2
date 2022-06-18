@@ -1,0 +1,383 @@
+/* Moblie & Table */
+@media (max-width: 1023px) {
+    .main {
+        margin: 0 8px;
+    }
+
+    :root {
+        --height-header: 100px;
+        --heigth-header-logo: 50px;
+    }
+
+    .hide-on-mobile-tablet {
+        display: none;
+    }
+
+    .content__generation-header {
+        font-size: 2.9rem;
+    }
+
+    .content__generation-text {
+        font-size: 2rem;
+    }
+    
+    .btn.btn--full-width {
+        max-width: 100%;
+        width: 192px;
+        font-size: 2rem;
+        padding: 26px 20px;
+    }
+
+    .section__heading {
+        font-size: 3.2rem;
+    }
+
+    .section__sub-heading {
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+
+    .products-section__heading {
+        font-size: 3rem;
+    }
+
+    .content-solutions__heading {
+        font-size: 3.4rem;
+    }
+
+    .content-solutions__title {
+        font-size: 2.5rem;
+        line-height: 2.2rem;
+    }
+
+    .products-section__text {
+        font-size: 2rem;
+    }
+
+    .content-solutions__watch {
+        font-size: 2rem;
+        line-height: 2.2rem;
+    }
+
+    .content-solutions__video-tour {
+        font-size: 2rem;
+    }
+
+    .content-project__office-heading {
+        font-size: 3rem;
+    }
+
+    .content-project__office-title {
+        font-size: 2.3rem;
+    }
+
+    .content__paiting-text-two {
+        font-size: 1.7rem;
+    }
+
+    .content-showrooms__img {
+        max-width: 100%;
+        height: 445px;
+        width: 900px;
+    }
+
+    .content__generation.showrooms {
+        width: 460px;
+        left: 730px;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .hide-on-tablet {
+        display: none;
+    }
+
+    .content__img {
+        width: 1200px;
+        max-width: unset;
+        height: 400px;
+    }
+
+    .content__generation {
+        right: -300px;
+    }
+
+    .content__product-bathroom {
+        height: 618px;
+        margin-left: -14px;
+    }
+
+    .content__product-marble {
+        height: 618px;
+    }
+
+    .products-section--size-s {
+        width: 450px;
+    }
+
+    .bathroom {
+        top: calc(100% - 90px);
+        left: 77px;
+    }
+    
+    .marble {
+        top: calc(100% - 90px);
+        left: 76px;
+    }
+
+    .content__product-img {
+        display: inline-flex;
+        margin-top: 30px;
+    }
+
+    .content__product-outdoor {
+        height: 618px;
+        padding: 0 8px;
+        margin-left: -14px;
+        width: 992px;
+    }
+
+    .content__product-kitchen {
+        margin-top: 0;
+        padding: 0 8px;
+        margin-right: -15px;
+
+    }
+
+    .content__product-kitchen {
+        max-width: 100%;
+        height: 618px;
+    }
+    
+    .products-section {
+        padding: 30px;
+    }
+
+    .interior {
+        width: 450px;
+        right: 80px;
+    }
+
+    .flooring {
+        width: 450px;
+        right: 80px;
+    }
+
+    .content-solutions {
+        padding: 0 8px;
+        margin-top: 50px;
+    }
+    
+    .content-solutions__img {
+        margin-top: 32px;
+        height: calc(100% - 260px);
+        margin-right: 8px;
+    }
+
+    .content-solutions__video {
+        width: 180px;
+        height: 90px;
+        top: 68%;
+        right: 0px;
+    }
+
+    .content-solutions__about-img {
+        height: 194px;
+        margin-bottom: 38px;
+    }
+
+    .footer {
+        width: 1211px;
+    }
+}
+
+@media (max-width: 740px) {
+    .maim {
+        overflow: hidden;
+    }
+
+    .btn.btn--full-width {
+        width: 367px;
+        height: 100px;
+        font-size: 3rem;
+    }
+
+    .hide-on-mobile {
+        display: none;
+    }
+
+    .header__logo-head {
+        margin-top: 30px;
+        height: 60px;
+        position: relative;
+        top: 30px;
+    }
+
+    .header__menu {
+        display: flex;
+    }
+    
+    .header__bars {
+        display: block;
+    }
+
+    .header__search {
+        display: none;
+    }
+
+    .header__info-logo-img {
+        width: 50px;
+    }
+
+    .header__info-icon {
+        font-size: 45px;
+    }
+
+    .content {
+        margin-top: 30px;
+    }
+
+    .content__img {
+        width: 1195px;
+        height: 600px;
+        max-width: unset;
+    }
+
+    .content__generation {
+        left: 590px;
+        top: 13%;
+        width: 548px;
+    }
+
+    .content__generation-header {
+        font-size: 4.2rem;
+        line-height: 4.2rem;
+    }
+
+    .content__generation-text {
+        padding: 0;
+        font-size: 2.6rem;
+        line-height: 2.6rem;
+    }
+
+    .section__heading {
+        line-height: 3.6rem;
+        font-size: 3.8rem;
+    }
+
+    .section__sub-heading {
+        font-size: 2.8rem;
+        line-height: 2.8rem;
+    }
+
+    .content__product-bathroom {
+        width: 1000px;
+        height: 1000px;
+        margin-top: 100px;
+    }
+
+    .content__product-marble {
+        width: 1000px;
+        height: 1000px;
+        margin-top: 100px;
+    }
+
+    .content__product-outdoor {
+        width: 1000px;
+        height: 1000px;
+        margin-top: 100px;
+    }
+
+    .content__product-marble {
+        width: 1000px;
+        max-width: 100%;
+    }
+
+    .content__product-kitchen {
+        width: 1000px;
+        height: 1000px;
+    }
+
+    .content__mobile-img {
+        margin-top: 20px;
+    }
+
+    .marble,
+    .bathroom {
+        left: 260px;
+        width: 713px;
+    }
+
+    .interior,
+    .flooring {
+        right: 190px;
+        width: 713px;
+    }
+
+    .content-vision__img {
+        height: 586px;
+    }
+
+    .content__generation.vision {
+        top: calc(100% - 520px);
+    }
+
+    .content-solutions__creation {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .content-solutions__about-img {
+        height: 800px;
+    }
+
+    .content-solutions__heading {
+        font-size: 4.3rem;
+    }
+
+    .content-solutions__heading {
+        width: 575px;
+    }
+
+    .content-solutions__img {
+        margin-top: 30px;
+        height: 520px;
+    }
+
+    .content-solutions__video {
+        width: 330px;
+        height: 150px;
+    }
+
+    .content-solutions__watch {
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+
+    .content-solutions__video-tour {
+        font-size: 3rem;
+    }
+
+    .content-showrooms__img {
+        height: 544px;
+        width: 988px;
+    }
+
+    .content__generation.showrooms {
+        width: 622px;
+        left: 506px;
+        top: 42px;
+    }
+
+    .footer {
+        width: 1203px;
+    }
+
+    .footer .footer__about {
+        padding: 0 240px;
+    }
+}

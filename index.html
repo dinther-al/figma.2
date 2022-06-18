@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/reponsive.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="main">
+        <header class="header">
+            <div class="grid wide">
+                <div class="header__logo">
+                    <img src="./assets/img/Vector.jpg" alt="LOGO" class="header__logo-head">
+                </div>
+                <nav class="header__navbar">
+                    <div class="header__menu">
+                        <div class="header__search">
+                            <i class="fa-solid fa-magnifying-glass header__search-icon"></i>
+                        </div>
+
+                        <label for="nav-input" class="header__bars">
+                            <i class="fa-solid fa-bars header__menu-icon"></i>
+                        </label>
+
+                        <input type="checkbox" hidden id="nav-input" class="nav__mobile-input">
+
+                        <label for="nav-input" class="nav__overlay"></label>
+
+                        <nav class="nav__mobile">
+                            <label for="nav-input" class="nav__close">
+                                <i class="fa-solid fa-xmark"></i>
+                            </label>
+                            <ul class="nav__list">
+                                <li>
+                                    <a href="" class="nav__link">Home</a>
+                                </li>
+
+                                <li>
+                                    <a href="" class="nav__link">Spaces</a>
+                                </li>
+
+                                <li>
+                                    <a href="" class="nav__link">Showrooms</a>
+                                </li>
+
+                                <li>
+                                    <a href="" class="nav__link">Company</a>
+                                </li>
+
+                                <li>
+                                    <a href="" class="nav__link">Contact</a>
+                                </li>
+
+                            </ul>
+                        </nav>
+                    </div>
+                
+                    <ul class="navbar__list hide-on-mobile">
+                        <li class="navbar__item">
+                            <a href="#" class="navbar__item-link">Home</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="#" class="navbar__item-link">Spaces</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="#" class="navbar__item-link">Products & Services</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="#" class="navbar__item-link">Showrooms</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="#" class="navbar__item-link">Company</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="#" class="navbar__item-link">Media</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="#" class="navbar__item-link">Contact</a>
+                        </li>
+                    </ul>
+                    <div class="header__info">
+                        <img src="./assets/img/Cart.jpg" alt="Cart" class="header__info-logo-img">
+                        <i class="fa-regular fa-heart header__info-icon"></i>
+                        <i class="fa-regular fa-user header__info-icon"></i>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <div class="container">
+            <div class="content">
+                <img src="./assets/img/unsplash.jpg" alt="" class="content__img">
+
+                <div class="content__generation">
+                    <h3 class="content__generation-header">New Generation Ceramic Tile</h3>
+                    <p class="content__generation-text">Penatibus sem vitae mollis luctus mi tellus. Maximus eu eleifend aptent dapibus metus maecenas consequat. Elementum interdum a semper. Netus nullam eros nisi volutpat nibh ex ultricies. Pharetra sagittis sit aliquet at. Magna nam platea justo.</p>
+                    <button class="btn btn--full-width btn--color-white">Learn more</button>
+                </div>
+            </div>
+
+            <div class="grid wide">
+                <div class="content-section">
+                    <h3 class="section__heading">Products</h3>
+                    <p class="section__sub-heading">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+                    
+                    <div class="row sm-gutter content__product">
+                        <div class="col l-5 m-6 c-12 content-product-title">
+                            <img src="./assets/img/bathroom.jpg" alt="" class="content__product-bathroom">
+                            <div class="products-section products-section--size-l bathroom">
+                                <h3 class="products-section__heading">Bathroom Tiles</h3>
+                                <p class="products-section__text">Ante mus blandit sapien sociosqu per consequat ad.</p>
+                            </div>
+                        </div>
+
+                        <div class="col l-3 m-6 c-12 content__product-bedroom">
+                            <img src="./assets/img/marble.jpg" alt="" class="content__product-marble">
+                            <div class="products-section products-section--size-s marble">
+                                <h3 class="products-section__heading">Marble</h3>
+                                <p class="products-section__text">Ante mus blandit sapien sociosqu per consequat ad.</p>
+                            </div>
+                        </div>
+
+                        <div class="col l-4 c-12">
+                            <div class="content__product-img">
+                                <div class="content__product-active">
+                                    <img src="./assets/img/outdoor.jpg" alt="" class="content__product-outdoor">
+                                    <div class="products-section flooring">
+                                        <h3 class="products-section__heading">Outdoor Flooring</h3>
+                                        <p class="products-section__text">Ante mus blandit sapien sociosqu per consequat ad.</p>
+                                    </div>
+                                </div>
+                                <div class="content__product-cook">
+                                    <img src="./assets/img/kitchen.jpg" alt="" class="content__product-kitchen">
+                                    <div class="products-section interior">
+                                        <h3 class="products-section__heading">Kitchen Interior</h3>
+                                        <p class="products-section__text">Ante mus blandit sapien sociosqu per consequat ad.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="content-vision">
+                        <img src="./assets/img/room-vision.jpg" alt="" class="content-vision__img">
+                       
+                        <div class="content__generation content__generation--color-white vision">
+                            <h3 class="content__generation-header content__generation-header--black">New Generation Ceramic Tile</h3>
+                            <p class="content__generation-text content__generation-text--black">Penatibus sem vitae mollis luctus mi tellus. Maximus eu eleifend aptent dapibus metus maecenas consequat. Elementum interdum a semper. Netus nullam eros nisi volutpat nibh ex ultricies. Pharetra sagittis sit aliquet at. Magna nam platea justo.</p>
+                            <button class="btn btn--full-width ">Learn more</button>
+                        </div>
+                    </div>
+
+                    <div class="row content-solutions">
+                        <div class="col l-8 m-6 c-12 content-solutions__creation">
+                            <h3 class="content-solutions__heading">Creative Solutions by Professional Designers</h3>
+                            <p class="content-solutions__title">Penatibus sem vitae mollis luctus mi tellus. Maximus eu eleifend aptent dapibus metus maecenas consequat. Elementum interdum a semper. Netus nullam eros nisi volutpat nibh ex ultricies. Pharetra sagittis sit aliquet at. Magna nam platea justo.</p>
+                            <div class="row content-solutions__hold">
+                                <div class="col l-3 c-12 content-solutions__about">
+                                    <img src="./assets/img/Rectangle.jpg" alt="" class="content-solutions__about-img">
+                                </div>
+
+                                <div class="col l-3 c-12 content-solutions__about">
+                                    <img src="./assets/img/Rectangle2.jpg" alt="" class="content-solutions__about-img">
+                                </div>
+
+                                <div class="col l-3 c-12 content-solutions__about">
+                                    <img src="./assets/img/Rectangle3.jpg" alt="" class="content-solutions__about-img">
+                                </div>
+
+                            </div>
+                            <button class="btn btn--full-width">Read More</button>
+                        </div>
+
+                        <div class="col l-4 m-6 c-12 content-solutions__tour">
+                            <img src="./assets/img/tour.jpg" alt="" class="content-solutions__img">
+
+                            <div class="content-solutions__video">
+                                <div class="content-solutions__pause"></div>
+
+                                <div class="content-solutions__description">
+                                    <p class="content-solutions__watch">Watch</p>
+                                    <p class="content-solutions__video-tour">Video-tour</p>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+
+                <div class="content-section">
+                    <h3 class="section__heading">Projects</h3>
+                    <p class="section__sub-heading">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+                    
+
+                    <div class="row content-project">
+                        <div class="col l-3 m-6 c-6 content-project__about">
+                            <img src="./assets/img/kingdom.jpg" alt="" class="content-project__about-img">
+
+                            <div class="content-project__office">
+                                <h3 class="content-project__office-heading">Kingdom Tower</h3>
+                                <p class="content-project__office-title">Marble Flooring</p>
+                            </div>
+                        </div>
+
+                        <div class="col l-3 m-6 c-6 content-project__about">
+                            <img src="./assets/img/dubai.jpg" alt="" class="content-project__about-img">
+
+                            <div class="content-project__office">
+                                <h3 class="content-project__office-heading">Dubai mall</h3>
+                                <p class="content-project__office-title">Wood Flooring</p>
+                            </div>
+                        </div>
+
+                        <div class="col l-3 m-6 c-6 content-project__about">
+                            <img src="./assets/img/Offices.jpg" alt="" class="content-project__about-img">
+
+                            <div class="content-project__office">
+                                <h3 class="content-project__office-heading">King Road Offices</h3>
+                                <p class="content-project__office-title">Outdoor Flooring</p>
+                            </div>
+                        </div>
+
+                        <div class="col l-3 m-6 c-6 content-project__about">
+                            <img src="./assets/img/alupang.jpg" alt="" class="content-project__about-img">
+
+                            <div class="content-project__office">
+                                <h3 class="content-project__office-heading">Beach Tower Alupang</h3>
+                                <p class="content-project__office-title">Wood Flooring</p>
+                            </div>
+                        </div>
+                        <div class="content-project__office-btn">
+                            <button class="btn btn--full-width">View all</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content-section">
+                    <h3 class="section__heading">Tile Collections</h3>
+                    <p class="section__sub-heading">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+                    
+                    <div class="row content-graphics">
+                        <div class="col l-3 m-4 content__paiting">
+                            <img src="./assets/img/15 1.jpg" alt="" class="content__paiting-img">
+
+                            <div class="content__paiting-desc">
+                                <h3 class="content__paiting-heading">Zurich Vision 60×60</h3>
+                                <div class="content__paiting-content">
+                                    <span class="content__paiting-text-one">449.99 SAR</span>
+                                    <span class="content__paiting-text-two">237.99 SAR</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col l-3 m-4 content__paiting">
+                            <img src="./assets/img/14 1.jpg" alt="" class="content__paiting-img">
+
+                            <div class="content__paiting-desc">
+                                <h3 class="content__paiting-heading">Zurich Vision 60×60</h3>
+                                <div class="content__paiting-content">
+                                    <span class="content__paiting-text-one">449.99 SAR</span>
+                                    <span class="content__paiting-text-two">237.99 SAR</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col l-3 m-4 content__paiting">
+                            <img src="./assets/img/13 1.jpg" alt="" class="content__paiting-img">
+
+                            <div class="content__paiting-desc">
+                                <h3 class="content__paiting-heading">Zurich Pearl 60×60</h3>
+                                <div class="content__paiting-content">
+                                    <span class="content__paiting-text-one">449.99 SAR</span>
+                                    <span class="content__paiting-text-two">237.99 SAR</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col l-3 m-4 content__paiting">
+                            <img src="./assets/img/12 1.jpg" alt="" class="content__paiting-img">
+
+                            <div class="content__paiting-desc">
+                                <h3 class="content__paiting-heading">Zurich Dark Grey 60×60</h3>
+                                <div class="content__paiting-content">
+                                    <span class="content__paiting-text-one">449.99 SAR</span>
+                                    <span class="content__paiting-text-two">237.99 SAR</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col l-3 m-4 content__paiting">
+                            <img src="./assets/img/11 1.jpg" alt="" class="content__paiting-img">
+
+                            <div class="content__paiting-desc">
+                                <h3 class="content__paiting-heading">Windsor White Oak</h3>
+                                <div class="content__paiting-content">
+                                    <span class="content__paiting-text-one">449.99 SAR</span>
+                                    <span class="content__paiting-text-two">237.99 SAR</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col l-3 m-4 content__paiting">
+                            <img src="./assets/img/10 1.jpg" alt="" class="content__paiting-img">
+
+                            <div class="content__paiting-desc">
+                                <h3 class="content__paiting-heading">Sicily Grey Décor 30×60</h3>
+                                <div class="content__paiting-content">
+                                    <span class="content__paiting-text-one">449.99 SAR</span>
+                                    <span class="content__paiting-text-two">237.99 SAR</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col l-3 m-4 content__paiting">
+                            <img src="./assets/img/9 61.jpg" alt="" class="content__paiting-img">
+
+                            <div class="content__paiting-desc">
+                                <h3 class="content__paiting-heading">Sardinia White</h3>
+                                <div class="content__paiting-content">
+                                    <span class="content__paiting-text-one">449.99 SAR</span>
+                                    <span class="content__paiting-text-two">237.99 SAR</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col l-3 m-4 content__paiting">
+                            <img src="./assets/img/8 1.jpg" alt="" class="content__paiting-img">
+
+                            <div class="content__paiting-desc">
+                                <h3 class="content__paiting-heading">Sicily Grey 30×60</h3>
+                                <div class="content__paiting-content">
+                                    <span class="content__paiting-text-one">449.99 SAR</span>
+                                    <span class="content__paiting-text-two">237.99 SAR</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="content__graphics-btn hide-on-tablet">
+                            <button class="btn btn--full-width btn--size-l btn--full-width ">More producs</button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row sm-gutter content-showrooms">
+                    <div class="col l-6">
+                        <img src="./assets/img/showrooms.jpg" alt="" class="content-showrooms__img">
+                    </div>
+
+                    <div class="content__generation content__generation--color-white showrooms">
+                        <h3 class="content__generation-header content__generation-header--black">New Generation Ceramic Tile</h3>
+                        <p class="content__generation-text content__generation-text--black">Penatibus sem vitae mollis luctus mi tellus. Maximus eu eleifend aptent dapibus metus maecenas consequat. Elementum interdum a semper. Netus nullam eros nisi volutpat nibh ex ultricies. Pharetra sagittis sit aliquet at. Magna nam platea justo.</p>
+                        <button class="btn btn--full-width ">Learn more</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="grid wide footer__about">
+                <div class="row footer__content">
+                    <div class="col l-3 footer__logo">
+                        <svg width="130px" height="30px" viewBox="0 0 162 57" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M39.0258 42.9522H3.88184C3.3287 42.9522 2.81507 42.8523 2.34095 42.6527C1.86684 42.453 1.45198 42.1834 1.0964 41.8439C0.760563 41.4845 0.493872 41.0652 0.296323 40.5859C0.0987745 40.1067 0 39.5875 0 39.0284V0H7.70441V35.1645H39.0258V42.9522Z" fill="#F8F8F8"/>
+                            <path d="M78.6739 32.0194C78.6739 33.3573 78.5059 34.5654 78.1701 35.6437C77.8343 36.7021 77.3898 37.6406 76.8367 38.4593C76.2835 39.258 75.6415 39.9469 74.9106 40.526C74.1796 41.0851 73.4092 41.5444 72.5992 41.9038C71.809 42.2633 70.9991 42.5328 70.1694 42.7126C69.3594 42.8723 68.589 42.9522 67.8581 42.9522H53.9605C52.8937 42.9522 51.7282 42.7625 50.4639 42.3831C49.1996 42.0037 48.0241 41.3847 46.9376 40.526C45.8709 39.6474 44.972 38.5192 44.2411 37.1414C43.5299 35.7436 43.1743 34.0363 43.1743 32.0194V21.4761C43.1743 19.4792 43.5299 17.7919 44.2411 16.4141C44.972 15.0163 45.8709 13.8881 46.9376 13.0294C48.0241 12.1508 49.1996 11.5218 50.4639 11.1424C51.7282 10.763 52.8937 10.5733 53.9605 10.5733H67.8581C69.8335 10.5733 71.5127 10.9327 72.8956 11.6516C74.2784 12.3705 75.3945 13.279 76.244 14.3773C77.0935 15.4556 77.7059 16.6337 78.0812 17.9117C78.4763 19.1897 78.6739 20.3778 78.6739 21.4761V32.0194ZM70.9695 21.536C70.9695 20.4577 70.7028 19.659 70.1694 19.1398C69.636 18.6206 68.8656 18.361 67.8581 18.361H54.0198C52.9925 18.361 52.2122 18.6306 51.6788 19.1697C51.1454 19.6889 50.8787 20.4577 50.8787 21.4761V32.0194C50.8787 33.0378 51.1454 33.8166 51.6788 34.3558C52.2122 34.8949 52.9925 35.1645 54.0198 35.1645H67.8581C68.9051 35.1645 69.6854 34.8949 70.199 34.3558C70.7126 33.8166 70.9695 33.0378 70.9695 32.0194V21.536Z" fill="#F8F8F8"/>
+                            <path d="M120.1 46.0673C120.1 47.4052 119.932 48.6033 119.596 49.6616C119.26 50.7399 118.816 51.6784 118.263 52.4771C117.71 53.2959 117.067 53.9848 116.337 54.5439C115.606 55.123 114.835 55.5922 114.025 55.9517C113.235 56.3111 112.425 56.5707 111.595 56.7304C110.785 56.9101 110.015 57 109.284 57H95.3865V49.2123H109.284C110.331 49.2123 111.111 48.9427 111.625 48.4036C112.139 47.8644 112.395 47.0857 112.395 46.0673V21.4761C112.395 20.4577 112.139 19.6889 111.625 19.1697C111.111 18.6306 110.331 18.361 109.284 18.361H95.3865C94.4383 18.361 93.6876 18.6605 93.1344 19.2596C92.5813 19.8387 92.3047 20.5775 92.3047 21.4761V32.0194C92.3047 33.0378 92.5714 33.8166 93.1048 34.3558C93.6382 34.8949 94.4185 35.1645 95.4458 35.1645H109.284V42.9522H95.3865C94.6556 42.9522 93.8851 42.8723 93.0752 42.7126C92.2652 42.5328 91.4553 42.2633 90.6453 41.9038C89.8551 41.5444 89.0946 41.0851 88.3636 40.526C87.6327 39.9469 86.9907 39.258 86.4375 38.4593C85.8844 37.6406 85.4399 36.7021 85.1041 35.6437C84.7682 34.5654 84.6003 33.3573 84.6003 32.0194V21.4761C84.6003 20.7373 84.6793 19.9585 84.8374 19.1398C85.0152 18.3211 85.2819 17.5123 85.6375 16.7136C85.993 15.8949 86.4474 15.1161 87.0005 14.3773C87.5734 13.6385 88.255 12.9895 89.0452 12.4304C89.8551 11.8713 90.7836 11.422 91.8306 11.0825C92.8776 10.743 94.0629 10.5733 95.3865 10.5733H109.284C110.015 10.5733 110.785 10.6632 111.595 10.8429C112.425 11.0026 113.235 11.2622 114.025 11.6217C114.835 11.9811 115.606 12.4503 116.337 13.0294C117.067 13.5885 117.71 14.2775 118.263 15.0962C118.816 15.8949 119.26 16.8234 119.596 17.8818C119.932 18.9401 120.1 20.1382 120.1 21.4761V46.0673Z" fill="#F8F8F8"/>
+                            <path d="M162 32.0194C162 33.3573 161.832 34.5654 161.496 35.6437C161.16 36.7021 160.716 37.6406 160.163 38.4593C159.61 39.258 158.968 39.9469 158.237 40.526C157.506 41.0851 156.735 41.5444 155.925 41.9038C155.135 42.2633 154.325 42.5328 153.496 42.7126C152.686 42.8723 151.915 42.9522 151.184 42.9522H137.287C136.22 42.9522 135.054 42.7625 133.79 42.3831C132.526 42.0037 131.35 41.3847 130.264 40.526C129.197 39.6474 128.298 38.5192 127.567 37.1414C126.856 35.7436 126.5 34.0363 126.5 32.0194V21.4761C126.5 19.4792 126.856 17.7919 127.567 16.4141C128.298 15.0163 129.197 13.8881 130.264 13.0294C131.35 12.1508 132.526 11.5218 133.79 11.1424C135.054 10.763 136.22 10.5733 137.287 10.5733H151.184C153.16 10.5733 154.839 10.9327 156.222 11.6516C157.605 12.3705 158.721 13.279 159.57 14.3773C160.42 15.4556 161.032 16.6337 161.407 17.9117C161.802 19.1897 162 20.3778 162 21.4761V32.0194ZM154.296 21.536C154.296 20.4577 154.029 19.659 153.496 19.1398C152.962 18.6206 152.192 18.361 151.184 18.361H137.346C136.319 18.361 135.538 18.6306 135.005 19.1697C134.472 19.6889 134.205 20.4577 134.205 21.4761V32.0194C134.205 33.0378 134.472 33.8166 135.005 34.3558C135.538 34.8949 136.319 35.1645 137.346 35.1645H151.184C152.231 35.1645 153.012 34.8949 153.525 34.3558C154.039 33.8166 154.296 33.0378 154.296 32.0194V21.536Z" fill="#F8F8F8"/>
+                            </svg>
+                    </div>
+    
+                    <div class="col l-3 footer__products">
+                        <h3 class="footer__products-heading">Products</h3>
+                        <ul class="footer__products-list">
+                            <li class="footer__products-item">
+                                <p class="footer__products-text footer__products-text--white">Sand Stone</p>
+                            </li>
+                            <li class="footer__products-item">
+                                <p class="footer__products-text">Stone</p>
+                            </li>
+                            <li class="footer__products-item">
+                                <p class="footer__products-text">Cement</p>
+                            </li>
+                            <li class="footer__products-item">
+                                <p class="footer__products-text">Soft Stone</p>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class="col l-3 footer__services">
+                        <h3 class="footer__services-heading">Services</h3>
+                        <ul class="footer__services-list">
+                            <li class="footer__services-item">
+                                <p class="footer__services-text">Measurement Service</p>
+                            </li>
+
+                            <li class="footer__services-item">
+                                <p class="footer__services-text">Product Advice</p>
+                            </li>
+
+                            <li class="footer__services-item">
+                                <p class="footer__services-text">Interior</p>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class="col l-3 footer__info">
+                        <h3 class="footer__info-heading">Contact information</h3>
+                        <ul class="footer__info-list">
+                            <li class="footer__info-item">
+                                <p class="footer__info-text">3181 AI Imam Saud Ibn Abdul Aziz Branch Rd,</p>
+                            </li>
+    
+                            <li class="footer__info-item">
+                                <p class="footer__info-text">An Nuzhah, Riyadh 12474,</p>
+                            </li>
+    
+                            <li class="footer__info-item">
+                                <p class="footer__info-text">Saudi Arabia</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer__socials">
+                    <i class="fa-brands fa-facebook-f footer__socials-icon"></i>
+                    <i class="fa-brands fa-twitter footer__socials-icon"></i>
+                    <i class="fa-brands fa-instagram footer__socials-icon"></i>
+                </div>
+
+                <div class="div footer__copy-right">
+                    <span class="footer__copy-right-text">Copyright © 2022 | All Rights Reserved.</span>
+                    <span class="footer__copy-right-text">Created with love by thecreation.design</span>
+                </div>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,375 @@
+.header {
+    height: var(--height-header);
+}
+
+.header__logo {
+    height: var(--heigth-header-logo);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__logo-head {
+    width: 130px;
+    height: 30px;
+}
+
+.header__navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: calc(var(--height-header) - var(--heigth-header-logo));
+}
+
+.header__bars {
+    display: none;
+}
+
+.header__menu-icon {
+    font-size: 4rem;
+}
+
+.header__search-icon {
+    font-size: 1.6rem;
+}
+
+.navbar__list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.navbar__item-link {
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding-left: 40px;
+    text-transform: uppercase;
+}
+
+.header__info {
+    display: flex;
+    align-items: center;
+}
+
+.header__info-icon {
+    font-size: 1.6rem;
+    margin-left: 20px;
+}
+
+.content {
+    position: relative;
+}
+
+.content__img {
+    max-width: 100%;
+}
+
+
+.content__product-bathroom {
+    max-width: 100%;
+    height: 100%;
+}
+
+.content-product-title {
+    position: relative;
+}
+
+.content__product-marble {
+    width: 100%;
+    height: 100%;
+}
+
+.content__product-bedroom {
+    position: relative;
+}
+
+.content__product-outdoor {
+    max-width: 100%;
+    height: 260px;
+}
+
+.content__product-active {
+    position: relative;
+}
+
+.content__product-kitchen {
+    max-width: 100%;
+    height: 260px;
+    margin-top: 100px;
+
+}
+
+.content__product-cook {
+    position: relative;
+}
+
+.bathroom {
+    position: absolute;
+    top: calc(100% - 60px);
+    left: 27px;
+}
+
+.marble {
+    position: absolute;
+    top: calc(100% - 60px);
+    left: 11px;
+}
+
+.flooring {
+    position: absolute;
+    top: calc(100% - 60px);
+    right: 16px;
+}
+
+
+.interior {
+    position: absolute;
+    top: calc(100% - 60px);
+    right: 16px;
+}
+
+.content-vision {
+    padding-top: 120px;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.content-vision__img {
+    width: 1100px;
+    height: 433.67px;
+}
+
+.content-solutions { 
+    padding-top: 120px;
+}
+
+.content-solutions__img {
+    width: 100%;
+}
+
+.content-solutions__creation {
+    text-align: left;
+}
+
+.content-solutions__heading {
+    font-size: 3rem;
+    width: 400px;
+    word-wrap: break-word;
+    line-height: 4rem;
+}
+
+.content-solutions__title {
+    font-size: 1.4rem;
+    color: #616161;
+    width: 410px;
+}
+
+.content-solutions__about {
+    margin: 20px 30px 20px 0;
+}
+
+.content-solutions__about-img {
+    width: 100%;
+}
+
+.content-solutions__tour {
+    position: relative;
+}
+
+.content-solutions__img {
+    height: calc(100% - 95px);
+}
+
+.content-solutions__pause {
+    background-color: #000;
+}
+
+.content-solutions__video {
+    position: absolute;
+    width: 150px;
+    height: 80px;
+    background-color: var(--white-color);
+    top: 73%;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-solutions__pause {
+    width: 40px;
+    height: 40px;
+    background-color: var(--black-color);
+    border-radius: 50%;
+    position: relative;
+}
+
+.content-solutions__pause:hover {
+    opacity: 0.6;
+}
+
+.content-solutions__pause::before {
+    content: "";
+    display: block;
+    position: absolute;
+    border-width: 13px 20px;
+    border-style: solid;
+    border-color: transparent transparent transparent var(--white-color);
+    left: 13px;
+    top: 7px;
+}
+
+.content-solutions__description {
+    margin-left: 10px;
+    text-align: left;
+    font-size: 1.1rem;
+}
+
+.content-solutions__watch {
+    color: #898989;
+    margin: 0;
+}
+
+.content-solutions__video-tour {
+    margin: 0;
+    font-weight: 500;
+}
+
+.content-project {
+    margin-top: 20px;
+}
+
+.content-project__about-img {
+    width: 100%;
+}
+
+.content-project__office-heading {
+    font-size: 2.4rem;
+    font-weight: 500;
+    margin: 16px;
+}
+
+.content-project__office-title {
+    font-size: 1.4rem;
+    color: rgba(17, 16, 16, 0.5);
+}
+
+.content-project__office-btn {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.content-graphics {
+    margin-bottom: 30px;
+}
+
+.content__paiting{
+    margin-bottom: 10px;
+}
+
+.content__paiting-img {
+    width: 100%;
+    height: 291px;
+}
+
+.content__paiting-desc {
+    background-color: var(--white-color);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    position: relative;
+    top: -4px;
+}
+
+.content__paiting-heading {
+    margin: 0;
+    font-size: 2.2rem;
+    font-weight: 500;
+    line-height: 3rem;
+}
+
+.content__paiting-text-one {
+    font-size: 1rem;
+    color: #cacaca;
+    text-decoration: line-through;
+}
+
+.content__paiting-text-two {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.content__graphics-btn {
+    display: flex;
+    margin: 20px auto;
+}
+
+.content-showrooms__img {
+    width: 100%;
+}
+
+.content-showrooms {
+    position: relative;
+    margin: 80px 0;
+}
+
+.footer {
+    background-color: #111010;
+    height: 262px;
+    padding: 50px 0;
+}
+
+.footer__products-heading,
+.footer__services-heading,
+.footer__info-heading {
+    color: var(--white-color);
+    font-size: 1.6rem;
+    margin: 0;
+    padding-bottom: 12px;
+}
+
+.footer__products-list,
+.footer__services-list,
+.footer__info-list {
+    padding-left: 0;
+    list-style: none;
+}
+
+.footer__products-text.footer__products-text--white {
+    color: var(--white-color);
+}
+
+.footer__products-text,
+.footer__services-text {
+    font-size: 1.6rem;
+    color: #a4a4a4;
+    margin: 0;
+    line-height: 2rem;
+}
+
+.footer__info-text {
+    font-size: 1.6rem;
+    color: var(--white-color);
+    margin: 0;
+    line-height: 2rem;
+}
+
+.footer__socials-icon {
+    font-size: 1.6rem;
+    color: var(--white-color);
+    margin: 0 6px;
+}
+
+.footer__copy-right {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__copy-right-text {
+    font-size: 1.4rem;
+    color: #a4a4a4;
+}
