@@ -54,6 +54,15 @@
         font-size: 3rem;
     }
 
+    .content-solutions__watch {
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+
+    .content-solutions__video-tour {
+        font-size: 3rem;
+    }
+
     .content-project__office-heading {
         font-size: 3rem;
     }
@@ -342,15 +351,6 @@
     .content-solutions__video {
         width: 330px;
         height: 150px;
-    }
-
-    .content-solutions__watch {
-        font-size: 3rem;
-        line-height: 3rem;
-    }
-
-    .content-solutions__video-tour {
-        font-size: 3rem;
     }
 
     .content-showrooms__img {
