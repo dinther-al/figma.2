@@ -51,16 +51,7 @@
     }
 
     .products-section__text {
-        font-size: 2rem;
-    }
-
-    .content-solutions__watch {
-        font-size: 2rem;
-        line-height: 2.2rem;
-    }
-
-    .content-solutions__video-tour {
-        font-size: 2rem;
+        font-size: 3rem;
     }
 
     .content-project__office-heading {
@@ -170,15 +161,15 @@
     }
     
     .content-solutions__img {
-        margin-top: 32px;
-        height: calc(100% - 260px);
+        margin-top: 70px;
+        height: calc(100% - 70px);
         margin-right: 8px;
     }
 
     .content-solutions__video {
-        width: 180px;
-        height: 90px;
-        top: 68%;
+        width: 322px;
+        height: 154px;
+        top: 88%;
         right: 0px;
     }
 
