@@ -52,6 +52,8 @@
 
     .products-section__text {
         font-size: 3rem;
+        line-height: 2.2rem;
+        height: 2.4rem;
     }
 
     .content-solutions__watch {
@@ -311,7 +313,7 @@
 
     .interior,
     .flooring {
-        right: 190px;
+        right: 240px;
         width: 713px;
     }
 
