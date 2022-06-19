@@ -231,7 +231,7 @@
     }
 
     .header__info-logo-img {
-        width: 25px;
+        width: 20px;
         margin-right: 16px;
     }
 
@@ -249,6 +249,10 @@
 
     .content {
         margin-top: 30px;
+    }
+
+    .app-content {
+        margin: 0 4px;
     }
 
     .content__img {
