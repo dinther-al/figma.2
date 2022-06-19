@@ -1,8 +1,10 @@
 /* Moblie & Table */
 @media (max-width: 1023px) {
+    /* html,
+    body,
     .main {
-        margin: 0 8px;
-    }
+        width: 1400px; */
+    /* } */
 
     :root {
         --height-header: 100px;
@@ -14,18 +16,24 @@
     }
 
     .content__generation-header {
-        font-size: 2.9rem;
+        font-size: 2.3rem;
     }
 
-    .content__generation-text {
-        font-size: 2rem;
+    .content__generation {
+        width: 370px;
+        right: 22px;
+        top: 90%;
     }
-    
-    .btn.btn--full-width {
-        max-width: 100%;
-        width: 192px;
-        font-size: 2rem;
-        padding: 26px 20px;
+
+
+    .content__generation-text {
+        font-size: 1.5rem;
+        margin-bottom: 20px;
+        padding-top: 10px;
+    }
+
+    .content-section {
+        padding-top: 280px;
     }
 
     .section__heading {
@@ -35,6 +43,7 @@
     .section__sub-heading {
         font-size: 2rem;
         line-height: 2rem;
+        width: 400px;
     }
 
     .products-section__heading {
@@ -46,8 +55,9 @@
     }
 
     .content-solutions__title {
-        font-size: 2.5rem;
+        font-size: 1.8rem;
         line-height: 2.2rem;
+        margin: 0;
     }
 
     .products-section__text {
@@ -82,11 +92,6 @@
         height: 445px;
         width: 900px;
     }
-
-    .content__generation.showrooms {
-        width: 460px;
-        left: 730px;
-    }
 }
 
 /* Tablet */
@@ -98,11 +103,7 @@
     .content__img {
         width: 1200px;
         max-width: unset;
-        height: 400px;
-    }
-
-    .content__generation {
-        right: -300px;
+        height: 300px;
     }
 
     .content__product-bathroom {
@@ -211,7 +212,8 @@
 
     .header__logo-head {
         margin-top: 30px;
-        height: 60px;
+        height: 30px;
+        width: 57px;
         position: relative;
         top: 30px;
     }
@@ -228,12 +230,25 @@
         display: none;
     }
 
+    .header__menu-icon {
+        margin: 16px;
+    }
+
     .header__info-logo-img {
-        width: 50px;
+        width: 25px;
+        margin-right: 16px;
     }
 
     .header__info-icon {
         font-size: 45px;
+    }
+
+    .header__info {
+        margin-top: -11px;
+    }
+
+    .header__info .header__info-icon {
+        display: none;
     }
 
     .content {
@@ -241,64 +256,40 @@
     }
 
     .content__img {
-        width: 1195px;
-        height: 600px;
-        max-width: unset;
-    }
-
-    .content__generation {
-        left: 590px;
-        top: 13%;
-        width: 548px;
-    }
-
-    .content__generation-header {
-        font-size: 4.2rem;
-        line-height: 4.2rem;
-    }
-
-    .content__generation-text {
-        padding: 0;
-        font-size: 2.6rem;
-        line-height: 2.6rem;
+        height: 300px;
     }
 
     .section__heading {
         line-height: 3.6rem;
-        font-size: 3.8rem;
+        font-size: 2.7rem;
     }
 
     .section__sub-heading {
-        font-size: 2.8rem;
-        line-height: 2.8rem;
+        font-size: 1.6rem;
+        line-height: 2rem;
     }
 
     .content__product-bathroom {
-        width: 1000px;
-        height: 1000px;
-        margin-top: 100px;
+        margin-top: 10px;
+        height: 260px;
+        width: 100%;
     }
 
     .content__product-marble {
-        width: 1000px;
-        height: 1000px;
-        margin-top: 100px;
+        margin-top: 30px;
+        height: 260px;
     }
 
     .content__product-outdoor {
-        width: 1000px;
-        height: 1000px;
-        margin-top: 100px;
+        margin-top: 30px;
     }
 
     .content__product-marble {
-        width: 1000px;
         max-width: 100%;
     }
 
     .content__product-kitchen {
-        width: 1000px;
-        height: 1000px;
+        margin-top: 30px;
     }
 
     .content__mobile-img {
@@ -318,11 +309,12 @@
     }
 
     .content-vision__img {
-        height: 586px;
+        height: 600px;
     }
 
     .content__generation.vision {
-        top: calc(100% - 520px);
+        top: 32px;
+        left: 22px;
     }
 
     .content-solutions__creation {
@@ -338,11 +330,11 @@
     }
 
     .content-solutions__heading {
-        font-size: 4.3rem;
+        font-size: 3rem;
     }
 
     .content-solutions__heading {
-        width: 575px;
+        width: 410px;
     }
 
     .content-solutions__img {
@@ -364,13 +356,5 @@
         width: 622px;
         left: 506px;
         top: 42px;
-    }
-
-    .footer {
-        width: 1203px;
-    }
-
-    .footer .footer__about {
-        padding: 0 240px;
     }
 }

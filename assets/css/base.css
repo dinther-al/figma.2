@@ -20,7 +20,7 @@ html {
 
 /* Button */
 .btn {
-    width: 120px;
+    width: 142px;
     height: 40px;
     background-color: var(--black-color);
     border: none;
@@ -112,7 +112,7 @@ html {
 .products-section {
     background-color: var(--black-color);
     padding: 20px;
-    width: 360px;
+    width: 294px;
     border: 1px solid var(--white-color);
 }
 
@@ -135,11 +135,11 @@ html {
 }
 
 .products-section--size-l {
-    width: 450px;
+    width: 385px;
 }
 
 .products-section--size-s {
-    width: 280px;
+    width: 225px;
 }
 
 .content__generation.vision {
@@ -153,7 +153,7 @@ html {
     position: absolute;
     text-align: left;
     top: calc(100% - 400px);
-    left: 520px;
+    left: 638px;
     width: 414px;
 }
 
@@ -184,7 +184,7 @@ html {
     top: 0;
     left: 0;
     bottom: 0;
-    width: 520px;
+    width: 294px;
     height: 1500px;
     max-width: 100%;
     background-color: var(--white-color);
@@ -204,7 +204,7 @@ html {
     color: var(--text-color);
     display: block;
     padding: 16px 0;
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 600;
 }
 

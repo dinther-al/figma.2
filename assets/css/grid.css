@@ -5,9 +5,8 @@
 }
 
 .grid.wide {
-    width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .row {
@@ -17,9 +16,9 @@
     margin-right: -4px;
 }
 
-.row.no-gutter {
-    margin-left: 0px;
-    margin-right: 0px;
+.row.no-gutters {
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .col {
@@ -27,7 +26,7 @@
     padding-right: 4px;
 }
 
-.row.no-gutter .col {
+.row.no-gutters .col {
     padding-left: 0;
     padding-right: 0;
 }
