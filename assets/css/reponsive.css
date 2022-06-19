@@ -46,6 +46,10 @@
         width: 400px;
     }
 
+    .content__product-img {
+        padding-bottom: 161px;
+    }
+
     .products-section__heading {
         font-size: 3rem;
     }
@@ -452,7 +456,7 @@
     }
 
     .content__generation.content__generation--color-white {
-        top: -120px;
+        top: -90px;
     }
 
     .footer__logo {
