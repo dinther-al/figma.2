@@ -176,6 +176,7 @@
 
 .content-solutions__about {
     margin: 20px 30px 20px 0;
+    position: relative;
 }
 
 .content-solutions__about-img {
@@ -184,14 +185,14 @@
 
 .content-solutions__tour {
     position: relative;
-}
-
-.content-solutions__img {
-    height: calc(100% - 95px);
-}
+}   
 
 .content-solutions__pause {
     background-color: #000;
+}
+
+.content__filter {
+    display: none;
 }
 
 .content-solutions__video {
@@ -199,7 +200,7 @@
     width: 150px;
     height: 80px;
     background-color: var(--white-color);
-    top: 77%;
+    top: 84%;
     right: 0;
     display: flex;
     align-items: center;
@@ -379,4 +380,8 @@
 .footer__copy-right-text {
     font-size: 1.4rem;
     color: #a4a4a4;
+}
+
+.footer__filter-icon {
+    display: none;
 }

@@ -55,7 +55,7 @@
     }
 
     .content-solutions__title {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
         line-height: 2.2rem;
         margin: 0;
     }
@@ -72,10 +72,6 @@
     }
 
     .content-solutions__video-tour {
-        font-size: 3rem;
-    }
-
-    .content-project__office-heading {
         font-size: 3rem;
     }
 
@@ -256,7 +252,7 @@
     }
 
     .content__img {
-        height: 300px;
+        height: 235px;
     }
 
     .section__heading {
@@ -271,17 +267,18 @@
 
     .content__product-bathroom {
         margin-top: 10px;
-        height: 260px;
+        height: 245px;
         width: 100%;
     }
 
     .content__product-marble {
         margin-top: 30px;
-        height: 260px;
+        height: 245px;
     }
 
     .content__product-outdoor {
         margin-top: 30px;
+        height: 250px;
     }
 
     .content__product-marble {
@@ -290,6 +287,63 @@
 
     .content__product-kitchen {
         margin-top: 30px;
+        height: 250px;
+    }
+
+    .content-project__about-img {
+        height: 280px;
+        width: 350px;
+    }
+    
+    .content__filter {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        top: -150px;
+        transform: translateY(-50%);
+    }
+    
+    .content__filter-control--left{
+        margin-left: -16px;
+    }
+    
+    .content__filter-control--right {
+        margin-right: -16px;
+    }
+
+    .left {
+        margin-left: 25px;
+    }
+
+    .right {
+        margin-right: 25px;
+    }
+    
+    .content__filter-control {
+        width: 36px;
+        height: 36px;
+        background-color: var(--white-color);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .content__filter-control-link:left {
+        padding-left: 0;
+    }
+    
+    .content__filter-control-icon {
+        color: var(--black-color);
+        font-size: 2rem;
+    }
+    
+
+    .content-project__office-heading {
+        font-size: 2.2rem;
+    }
+
+    .content-project__office-title {
+        font-size: 1.6rem;
     }
 
     .content__mobile-img {
@@ -306,6 +360,15 @@
     .flooring {
         right: 240px;
         width: 713px;
+    }
+
+    .content-solutions {
+        padding-top: 20px;
+    }
+
+    .content-section--top {
+        padding-top: 0;
+        margin-top: -120px;
     }
 
     .content-vision__img {
@@ -326,15 +389,13 @@
     }
 
     .content-solutions__about-img {
-        height: 800px;
+        height: 290px;
     }
 
     .content-solutions__heading {
-        font-size: 3rem;
-    }
-
-    .content-solutions__heading {
+        font-size: 2.7rem;
         width: 410px;
+        margin: 12px;
     }
 
     .content-solutions__img {
@@ -347,8 +408,12 @@
         height: 150px;
     }
 
+    .content-showrooms {
+        margin: 134px 0 -6px;
+    }
+
     .content-showrooms__img {
-        height: 544px;
+        height: 611px;
         width: 988px;
     }
 
@@ -356,5 +421,83 @@
         width: 622px;
         left: 506px;
         top: 42px;
+    }
+
+    .content__generation {
+        top: 203px;
+    }
+
+    .footer {
+        height: 380px;
+    }
+
+    .footer__content {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+
+    .footer__content::after {
+        content: "";
+        display: block;
+        border-bottom: 1px solid #474747;
+        position: relative;
+        top: 35px;
+        width: 326px;
+        left: 45px;
+    }
+
+    .content__generation.content__generation--color-white {
+        top: -120px;
+    }
+
+    .footer__logo {
+        text-align: center;
+    }
+
+    .footer__products {
+        margin-top: 16px;
+    }
+
+    .footer__products-heading, 
+    .footer__services-heading, 
+    .footer__info-heading {
+        font-size: 1.3rem;
+        font-weight: 400;
+        margin-left: 16px;
+        padding-bottom: 0;
+        line-height: 2rem;
+    }
+
+    .footer__info,
+    .footer__products,
+    .footer__services {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .footer__filter {
+        display: block;
+    }
+
+    .footer__filter-icon {
+        color: var(--white-color);
+        font-size: 1.6rem;
+        margin-right: 16px;
+    }
+
+    .footer__socials {
+        margin: 47px 0;
+        text-align: center;
+    }
+
+    .footer__socials-icon {
+        font-size: 2.3rem;
+    }
+
+    .footer__copy-right {
+        flex-direction: column;
+        text-align: center;
     }
 }
